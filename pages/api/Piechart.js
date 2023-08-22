@@ -13,7 +13,7 @@ const Card = () => {
         axios.get('https://jsonplaceholder.typicode.com/todos')
             .then(response => {
                 console.log(response.data.slice(0, 3))
-                setTasks(response.data.slice(0, 3));
+                setTasks(response.data.slice(0,3));
             })
             .catch(error => {
                 console.error('Error fetching data:', error);
