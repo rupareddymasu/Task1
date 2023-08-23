@@ -27,7 +27,7 @@ export default function Form() {
           Sign in to your account
         </div>
         <div className='googlesignin'>
-          <form action="http://localhost:3000/api/auth/signin/google"
+          <form action="https://animated-genie-bf8ec1.netlify.app/api/auth/signin/google"
             method="POST">
             <input type="hidden" name="csrfToken"
               value="853413ad76312ff441ce5ef30b4731178de64ecbb901d5e82dd6816e6643ffa4" />
